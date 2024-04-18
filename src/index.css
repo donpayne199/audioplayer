@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.audio-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: gray;
+  font-size: 2.5rem;
+  height: 20vh;
+  width: 20vw;
+  margin: 0 auto;
+}
+
+button {
+  padding: 8px;
+}
+
+.play-pause-btn {
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  margin: 0;
+  margin-top: 10px;
+}
+input[type="range"] {
+  --range-progress: 0;
+  position: absolute;
+  left: 3px;
+  bottom: 25px;
+  width: 380px;
+  height: 4px;
+}
